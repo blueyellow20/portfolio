@@ -14,12 +14,65 @@ h1{
 
    background-image: url("pexels-mitchell-luo-3762497.jpg") ;
 }
-body{
+.redback {
     background-image: linear-gradient(#FF5733,#F7DC6F);
     background-repeat: no-repeat;
     background-size: auto 600px;
 
 }
+
+.blueback{
+    background-image: linear-gradient(#F7DC6F ,#FF5733);
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+.triangle{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    margin: 10px;
+    align-items: center;
+
+
+}
+.polygon{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    margin: 10px;
+    align-items: center;
+
+
+}
+h2{
+    font-size: 45px;
+}
+.app{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    margin: 10px;
+    align-items: center;
+
+
+}
+.java{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.calculator{
+    width: 300px;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+   
 
 select{
 display: flex;
