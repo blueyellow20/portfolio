@@ -72,6 +72,13 @@ h2{
     top: 0;
     width: 100%;
   }
+
+.stick{
+    position:sticky;
+    top: 0;
+    left: 40;
+    width: 50px;
+  }
    
 
 select{
