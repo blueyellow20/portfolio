@@ -28,6 +28,12 @@ h1{
 
 
 }
+.greenback{
+    background-image: linear-gradient(green, yellow);
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
 .triangle{
     display: flex;
     flex-direction: column; 
@@ -107,4 +113,8 @@ a{
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+}
+.tt{
+    position: absolute;
+    left: 25%;
 }
