@@ -114,21 +114,31 @@ h2{
 .total{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    margin: 10px;
 }
 .right{
     display: flex;
     width: 55%;
+    flex-direction: column;
 
 }
 .ab{
     display: flex;
     flex-direction: row;
 }
+h3{
+    margin: 10px;
+
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .left{
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 17%;
 }
 .java{
     display: flex;
