@@ -268,3 +268,69 @@ display: flex;
     .all {
         background-color: black;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .feepopup{
+        margin-top: 30px;
+    }
+
+    .feepopup .overlay {
+        position:fixed;
+        top:0px;
+        left:0px;
+        width:100vw;
+        height:100vh;
+        background: rgba(0,0,0,0.7);
+        z-index:1;
+        display: none;
+        color: black;
+    }
+    .feepopup .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0) ;
+        background:#fff;
+        width:450px;
+        height:300px;
+        z-index: 2;
+        text-align: center;
+        padding:20px;
+        box-sizing:border-box;
+        color: black;
+
+    }
+    .feepopup .close-pop{
+        cursor:pointer;
+        position: absolute;
+        right: 20px;
+        background: white;
+        color: black;
+
+    }
+    .feepopup.active .overlay{
+        display:block;
+        color: black;
+
+    }
+    .feepopup.active .content{
+        transition: all 100ms ease-in-out;
+        transform: translate(-50%, -50%) scale(1);
+        color: black;
+
+    }
+    
