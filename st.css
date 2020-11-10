@@ -17,6 +17,15 @@ h1{
 
    background-image: url("pexels-mitchell-luo-3762497.jpg") ;
 }
+
+.cvP{
+    padding: 100px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    background-size: 250px 240px;
+
+   background-image: url("pexels-mitchell-luo-3762497.jpg") ;
+}
 .redback {
     background-image: linear-gradient(#FF5733,#F7DC6F);
     background-repeat: no-repeat;
@@ -36,6 +45,10 @@ h1{
     color: white;
 
 }
+.green{
+    background-color: green ;
+
+}
 .d{
     display: flex;
     flex-direction: column;
@@ -48,6 +61,7 @@ h1{
     background-image: linear-gradient(green, yellow);
     background-repeat: no-repeat;
     text-align: center;
+    color: black;
 
 }
 .triangle{
@@ -87,6 +101,7 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
     
+    
 }
 .app{
     display: flex;
@@ -95,7 +110,25 @@ h2{
     margin: 10px;
     align-items: center;
 
+}
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.right{
+    display: flex;
+    width: 55%;
 
+}
+.ab{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
 }
 .java{
     display: flex;
@@ -148,9 +181,11 @@ display: flex;
 }
 .i{
     position: absolute;
-    top: 700px;
-    left: 45%;
-    font-size: 7px;
+    top: 800px;
+    left: 47%;
+    font-size: 30px;
+    height: 100px; 
+    width: 100px;
 }
 .homea{
     margin-right: 50px;
@@ -170,6 +205,7 @@ display: flex;
 
 
 .con{
+    color: white;
 }
 
 
