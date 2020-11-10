@@ -36,7 +36,186 @@
             <div class="content">
                 <div class="close-pop" onclick="togglePopup()">&times;</div>
                 <h2 class="about">Information</h2>
-                <p class="about">Pay £265.00 £255.00: get a £10 Amazon Gift Card on approval for the Amazon Platinum Mastercard. Terms apply.</p>
+                <p class="about">import java.util.Scanner; 
+                    public class Triangle
+                    {
+                        Scanner keyboard = new Scanner(System.in);
+                    
+                    
+                            private double first;
+                            private double second;
+                            private double third;
+                    
+                            public  Triangle()
+                            {
+                                first=1;
+                                second=1;
+                                third =1;
+                            }
+                            public Triangle(double s, double m, double l)
+                            {
+                            first=s;
+                            second =m;
+                            third = l;
+                            
+                            }
+                            public void findData(String pa, double s,double m,double l)
+                            {
+                                Triangle real = new Triangle ();
+                                
+                                String cake =pa.toUpperCase();
+                    while (!cake.equals("X"))
+                    {	if(cake.equals("A"))
+                                    
+                                {real.A(s, m, l);
+                                System.out.println("Do you want Area(A), Perimeter(P), or Edit the Triangle (E), or Exit the Program (X)?");
+                                pa = keyboard.nextLine();
+                                cake =pa.toUpperCase();
+                                }
+                            if(cake.equals("P"))
+                                {real.P(s, m, l);
+                                System.out.println("Do you want Area(A), Perimeter(P), or Edit the Triangle (E), or Exit the Program (X)?");
+                                pa = keyboard.nextLine();
+                                cake =pa.toUpperCase();
+                                    }
+                            if(cake.equals("E"))
+                                {real.E();
+                                System.out.println("Do you want Area(A), Perimeter(P), or Edit the Triangle (E), or Exit the Program (X)?");
+                                pa = keyboard.nextLine();
+                                cake =pa.toUpperCase();}
+                            if (!cake.equals("E") || !cake.equals("A") || !cake.equals("P") )
+                            {
+                                System.out.println("type again");
+                                System.out.println("Do you want Area(A), Perimeter(P), or Edit the Triangle (E), or Exit the Program (X)?");
+                                pa = keyboard.nextLine();
+                                cake =pa.toUpperCase();
+                            }}
+                            }
+                            
+                            
+                            public void A(double s , double m, double l)
+                            {
+                                double areaS = (s+m+l)/2;
+                                System.out.println(Math.sqrt(areaS*(areaS-s)*(areaS-m)*(areaS-l)));
+                            }
+                            public void P(double s, double m, double l)
+                            {
+                                System.out.println(s+m+l);
+                            }
+                            
+                            public void E()
+                            {
+                                double [] pak = data();
+                                 double min = pak[0];
+                                 double mid = pak[1];
+                                 double max = pak[2];
+                                while   ((min+mid)<=max)
+                                { System.out.println ("Invalid Triangle");
+                                double [] who = data();
+                                 min = who[0];
+                                 mid = who[1];
+                                 max = who[2];
+                                 
+                                }
+                                
+                            if((min+mid)>max )
+                                {Triangle pq = new Triangle (min, mid ,max);
+                                }
+                                    
+                                 
+                            }
+                            public  static double[] data()
+                            {
+                    Scanner keyboard = new Scanner (System.in);
+                                double s;
+                                double m;
+                                double l;
+                                System.out.println ( "First number");
+                                s= keyboard.nextDouble();
+                                System.out.println ( "Second number");
+                                m= keyboard.nextDouble();
+                                System.out.println ( "Third number");
+                                l= keyboard.nextDouble();
+                                double min = 0; double mid =0 ; double max =0;
+                                if (s<m && m<l)
+                                {
+                                    min = s;
+                                    mid = m;
+                                    max = l;
+                                }
+                                if (s<l && l<m)
+                                {
+                                    min = s;
+                                    mid = l;
+                                    max = m;
+                                }
+                                if (m<s && s<l)
+                                {
+                                    min = m;
+                                    mid = s;
+                                    max = l;
+                                }
+                                if (m<l && l<s)
+                                {
+                                    min = m;
+                                    mid = l;
+                                    max = s;
+                                }
+                                if (l<m && m<s)
+                                {
+                                    min = l;
+                                    mid = m;
+                                    max = s;
+                                }
+                                if (l<s && s<m)
+                                {
+                                    min = l;
+                                    mid = s;
+                                    max = m;
+                                }
+                                        double[] who = new double[3];
+                                        who[0]=min;
+                                        who [1]=mid;
+                                        who [2] = max;
+                                        return who;
+                                        
+                            } 
+                            
+                    public static   void main(String []args)
+                        {Triangle k = new Triangle();
+                            System.out.println(k);
+                            Scanner keyboard = new Scanner(System.in); 
+                            
+                            double [] pad = data();
+                            double min = pad[0];
+                            double mid = pad[1];
+                            double max = pad[2];
+                            
+                            
+                            while   ((min+mid)<=max)
+                            { System.out.println ("Invalid Triangle");
+                            double [] who = data();
+                             min = who[0];
+                             mid = who[1];
+                             max = who[2];
+                             
+                            }
+                            
+                        if((min+mid)>max )
+                            {Triangle pq = new Triangle (min, mid ,max);
+                                    System.out.println(pq);
+                                    String pa;
+                                    System.out.println("Do you want Area(A), Perimeter(P), or Edit the Triangle (E), or Exit the Program (X)?");
+                                    pa = keyboard.nextLine();
+                                    String cake =pa.toUpperCase();
+                                    pq.findData(cake, min, mid ,max);}
+                                
+                            
+                            System.out.println("Thank you for your time!");
+                    
+                    
+                        }
+                    }</p>
             </div>
         </div>
         <button onclick="togglePopup()">Show Detail</button>
