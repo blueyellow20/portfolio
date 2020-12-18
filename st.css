@@ -159,7 +159,7 @@ h4{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    align-items: baseline;
 }
 .ElementaryE{
     display: flex;
@@ -608,7 +608,9 @@ display: flex;
         text-decoration: none;
 
       }
-
+      .websiteb{
+          margin: 30px;
+      }
 
       .Websiteback{
         background-size: cover;
