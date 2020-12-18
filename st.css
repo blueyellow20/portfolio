@@ -639,3 +639,15 @@ display: flex;
         font-size: 25px;
         text-align: center;
       }
+
+      .back{
+          position:absolute;
+          width: 100%;
+          background-position: center;
+
+          height: 150px;
+      }
+
+      .mun{
+          margin-top: 50px;
+      }
