@@ -34,9 +34,9 @@ h1{
     margin-right: 200px;
 
     border-radius: 50%;
-    background-size: 180px 240px;
+    background-size: cover;
 
-   background-image: url("yusunkim2.jpg") ;
+   background-image: url("yusunkim3.jpg") ;
 }
 .redback {
     background-color: white;
