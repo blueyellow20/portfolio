@@ -491,7 +491,7 @@ display: flex;
         transform: translate(-50%, -50%) scale(0) ;
         background:#fff;
         width:450px;
-        height:1100px;
+        height:auto;
         z-index: 2;
         text-align: center;
         padding:20px;
@@ -503,6 +503,8 @@ display: flex;
         cursor:pointer;
         position: absolute;
         right: 20px;
+        left: 70px;
+
         background: white;
         color: black;
 
