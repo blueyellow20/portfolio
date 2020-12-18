@@ -21,9 +21,10 @@ h1{
     padding: 115px;
     margin: 4px 2px;
     border-radius: 50%;
-    background-size: 210px 300px;
+    background-size: cover;
     border-color: transparent;
-   background-image: url("yusunkim2.jpg") ;
+    background-position: center;
+   background-image: url("yusunkim3.jpg") ;
 }
 
 .cvP{
@@ -650,4 +651,8 @@ display: flex;
 
       .mun{
           margin-top: 50px;
+      }
+
+      .inlist{
+          margin-left: 35px;
       }
